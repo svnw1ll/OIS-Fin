@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            background: linear-gradient(to bottom, #333, #111);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(to bottom, #ff8c00, #ff6b00);
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: linear-gradient(to bottom, #ff6b00, #ff8c00);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign in</h2>
+        <form>
+            <input type="text" placeholder="Phone number" value="+7">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">  
+            <form>
+                <input type="submit" value="Sign in" formaction="mainpage.html">
+            </form>
+        </form>
+        <p>Already have an account? <a href="reg.html">Log in</a></p>
+    </div>
+
+</body>
+</html>
